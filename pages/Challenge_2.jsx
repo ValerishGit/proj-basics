@@ -51,7 +51,10 @@ export function Challenge2({ onSetPage }) {
         <p>
           {currentMonth} ({seasonIcon})
         </p>
-        <img className="season-img" src={`/assets/img/${seasonIcon}.png`}></img>
+        <img
+          className="season-img"
+          src={`${process.env.PUBLIC_URL}/assets/img/${seasonIcon}.png`}
+        ></img>
         <p>{currentDay}</p>
       </div>
       <button
