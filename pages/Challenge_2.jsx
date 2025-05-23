@@ -53,7 +53,7 @@ export function Challenge2({ onSetPage }) {
         </p>
         <img
           className="season-img"
-          src={`${process.env.PUBLIC_URL}/assets/img/${seasonIcon}.png`}
+          src={`proj-basics/assets/img/${seasonIcon}.png`}
         ></img>
         <p>{currentDay}</p>
       </div>
